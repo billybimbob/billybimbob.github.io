@@ -1,0 +1,99 @@
+body {
+    background-color: whitesmoke;
+}
+
+#page {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#content {
+    width: 60%;
+    margin: auto;
+    margin-top: 70px;
+    margin-left: 20%;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: grey;
+    color: azure;
+    margin-left: -0.55%;
+    padding: 0 0;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+}
+
+#header a:hover {
+    background-color: burlywood;
+}
+
+#header nav {
+    font-size: 2em;
+    text-align: center;
+    opacity: 100%;
+    margin: 8px 0px 10px 0;
+    padding: 0px 5px 0px 40px;
+}
+
+#header .download {
+    float: right;
+    margin-top: -2.5%;
+    padding-right: 25px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+hr {
+    margin-top: -5px;
+    border: 1px solid black;
+}
+
+#contact-info .shift-right {
+    margin-top: -55px;
+}
+
+.shift-right {
+    float: right;
+}
+
+.shift-left {
+    clear: both;
+}
+
+.split {
+    column-count: 2;
+    column-gap: 10px;
+}
+
+.res-info { 
+    display: block;
+}
+
+.res-info ul {
+    width: 80%;
+}
+
+.res-info li {
+    padding-bottom: 4px;
+}
+
+.res-info h4 {
+    margin-top: -10px;
+    float: right;
+}
+
+.res-info h3 {
+    clear: both;
+    margin-bottom: -10px;
+}
+
+.res-info .shift-right {
+    margin-top: -39px;
+}
