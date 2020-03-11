@@ -55,6 +55,10 @@ hr {
     border: 1px solid black;
 }
 
+#contacts {
+    margin-top: -20px;
+}
+
 #contact-info .shift-right {
     margin-top: -55px;
 }
@@ -84,16 +88,23 @@ hr {
     padding-bottom: 4px;
 }
 
-.res-info h4 {
-    margin-top: -10px;
-    float: right;
-}
-
 .res-info h3 {
     clear: both;
     margin-bottom: -10px;
 }
 
+.res-info h4 {
+    margin-top: -10px;
+    float: right;
+}
+
+.res-info h5 {
+    margin-top: 14px;
+    margin-right: -187px;
+    font-size: 16px;
+    float: right;
+}
+
 .res-info .shift-right {
-    margin-top: -39px;
+    margin-top: -0px;
 }
