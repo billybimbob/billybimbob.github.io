@@ -13,26 +13,26 @@ body {
     margin-left: 20%;
 }
 
-#header {
+header {
     position: fixed;
     top: 0;
     width: 100%;
     background-color: grey;
     color: azure;
-    margin-left: -0.55%;
+    margin-left: -0.57%;
     padding: 0 0;
 }
 
-#header a {
+header a {
     color: white;
     text-decoration: none;
 }
 
-#header a:hover {
+header a:hover {
     background-color: burlywood;
 }
 
-#header nav {
+header nav {
     font-size: 2em;
     text-align: center;
     opacity: 100%;
@@ -40,7 +40,7 @@ body {
     padding: 0px 5px 0px 40px;
 }
 
-#header .download {
+header .download {
     float: right;
     margin-top: -2.5%;
     padding-right: 25px;
@@ -51,12 +51,24 @@ h1 {
 }
 
 hr {
-    margin-top: -5px;
+    margin-top: -12px;
+    margin-bottom: -6px;
     border: 1px solid black;
 }
 
 #contacts {
     margin-top: -20px;
+}
+
+#contacts a, #contacts li {
+    text-decoration: none;
+    color: black;
+}
+
+#contacts li {
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: -2%;
 }
 
 #contact-info .shift-right {
@@ -76,8 +88,13 @@ hr {
     column-gap: 10px;
 }
 
+.sub-title {
+    font-weight: 700;
+}
+
 .res-info { 
     display: block;
+    padding-top: 4px;
 }
 
 .res-info ul {
@@ -85,12 +102,13 @@ hr {
 }
 
 .res-info li {
+    margin-top: -1px;
     padding-bottom: 4px;
 }
 
 .res-info h3 {
     clear: both;
-    margin-bottom: -10px;
+    margin-bottom: -11px;
 }
 
 .res-info h4 {
