@@ -18,14 +18,83 @@
     </header>
 
     <main>
-        <div id="content">
-            <section id="intro">
-                <h1 id="name" class="shift-left">Home Page</h1>
-                <p>This will be the Home Page of the home page that will 
-                    have some stuff eventually</p>
-            </section>
-    
-        </div>
+    <div id="content">
+        <section id="intro">
+            <h1 id="name" class="shift-left">Noah Dela Rosa</h1>
+            <hr>
+            <p>
+                Am currently a Computer Science student at Illinois Institute of Technology.
+                I enjoy making fun projects, and am always willing to learn new ideas, as well 
+                as helping teach others. I have been a teaching assistant for over two year for 
+                various classes like data structures and object-oriented programming, and also 
+                enjoy collaborating with others. Mostly I am proficient with Java and Python, 
+                but am still experienced with JavaScript, C, and Haskell.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <hr>
+            <p id=proj-intro>
+                Here are some personal projects that I have been working on. Most of them are
+                still a work in progress, will all the code found on 
+                <a href="https://github.com/billybimbob">my github</a>.
+            </p>
+            <h3>
+                <a href="https://github.com/billybimbob/Text-Fighter">Text-based Role-playing Fighter</a>
+            </h3>
+            <p>
+                This one is a turned-based text role-playing text fighter, inspired by mechanics from Pokemon
+                and World of Warcraft. Players can play as one of multiple classes, and take on various monsters.
+                Each class has a different playstyle, like the melee-focused warrior, the spell-casting mage, 
+                disruption-based priest, or the versatile shapeshifter. Other mechanics include items like potions,
+                armor and weapons to help add some more variations. The program outputs to the console, but I have 
+                intentions to create a better interface, as well as adding exploration mechanics to make this
+                game a more full-fledged rpg.
+            </p>
+            <h3><a href="https://github.com/billybimbob/CS100-Checkers">Checkers Tournament</a></h3>
+            <p>
+                This project was initially made to be used as a lab exercise to students in order to apply
+                game theory concepts in a programming context. Each student implements a checkers board
+                analyzer, which is then used to run students in a round-robin style checkers tournament.
+                Each checkers match takes two players, where each move is determined by using a greedy search
+                to predict the upcoming turns based on the students' board analyzers. All of the output is 
+                currently in a console representation. I plan to change it to a more interactive GUI in the
+                future.
+            </p>
+            <h3><a href="https://github.com/billybimbob/MusicIdentifier">Music Identifier</a></h3>
+            <p>
+                Based on an implementation I found online, this program mimics the baseline functionality
+                of the <a href="https://www.shazam.com/">Shazam</a> music discovery app. The program listens
+                to an audio sample, breaks it down into key frequency points using a Discrete Fourier 
+                transformation, and matches those points against preexisting values. To work properly, songs 
+                need to be parsed and stored before they can be identified. The main issue is that I still 
+                have to find a way to store the parsed values in a fast and space efficient manner. The initial 
+                parse method can also be improved, as only local audio files currently work.
+            </p>
+            <h3><a href="https://github.com/billybimbob/Game-Of-Life">Game of Life</a></h3>
+            <p>
+                Look at that, another game. This one is more in the sense that it is a cellular simulation,
+                and less of an interactive game. The behavior implements the rules of 
+                <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a> in 
+                Python, along with having some simple starting patterns like the glider, glider gun, and toad.
+                Currently the application outputs to either the console or the curses terminal, but I plan to 
+                add an actual GUI interface and better user input to allow for custom patterns.
+            </p>
+
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <hr>
+            <p>
+                When I am not focusing on school or projects, I enjoy playing video games, playing
+                the piano, and tennis. But most important of all, I enjoy spending time with my friends
+                and my family.
+            </p>
+        </section>
+
+    </div>
     </main>
 </div>
 </body>

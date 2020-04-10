@@ -7,19 +7,21 @@ body {
 }
 
 #content {
+    background-color: white;
     width: 60%;
     margin: auto;
-    margin-top: 70px;
-    margin-left: 20%;
+    margin-top: 50px;
+    margin-left: 15%;
+    padding: 1% 5% 2% 5%;
 }
 
 header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: grey;
+    background-color: gray;
     color: azure;
-    margin-left: -0.57%;
+    margin-left: -8px;
     padding: 0 0;
 }
 
@@ -28,7 +30,7 @@ header a {
     text-decoration: none;
 }
 
-header a:hover {
+a:hover {
     background-color: burlywood;
 }
 
@@ -56,11 +58,28 @@ hr {
     border: 1px solid black;
 }
 
+p, li {
+    font-size: 18px;
+}
+
+#proj-intro {
+    padding-top: 7px;
+}
+
+#projects h3 {
+    padding-bottom: -5px;
+    margin-bottom: -5px;
+}
+
+#projects p {
+    margin-top: 8px;
+}
+
 #contacts {
     margin-top: -20px;
 }
 
-#contacts a, #contacts li {
+#contacts a, #contacts li, h3, a {
     text-decoration: none;
     color: black;
 }
