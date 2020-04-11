@@ -66,6 +66,10 @@ p, li {
     padding-top: 7px;
 }
 
+#projects h2, #hobbies h2 {
+    padding-top: 10px;
+}
+
 #projects h3 {
     padding-bottom: -5px;
     margin-bottom: -5px;
